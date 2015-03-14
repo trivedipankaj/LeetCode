@@ -16,7 +16,6 @@ public class Solution {
                return false;
            }else{
                start++;end--;
-               flag=true;
            }
        }
        return true;
