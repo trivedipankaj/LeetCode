@@ -32,7 +32,7 @@ public class Solution {
     }
     
     public void processSolution(int[] A,int[] S){
-        List temp = new ArrayList<Integer>();
+        List<Integer> temp = new ArrayList<Integer>();
         for(int i=0; i<S.length; i++){
             if(A[i]==1){
                 temp.add(S[i]);
